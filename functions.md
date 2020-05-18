@@ -26,8 +26,15 @@ match() can be equivalent of %in%. difference is that %in% return True/False, an
     [1] TRUE TRUE FALSE TRUE
 `nomatch = 0` parameter defines the integer to be sent if there is no match for a element in vec1 in the vec2.
 
+
+
+
    > v1 <- c("a1","b2","c1","d2")
    > v2 <- c("g1","x2","d2","e2","f1","a1","c2","b2","a2")
    > x <- match(v1,v2, nomatch = 0)
    > x
    [1] 6 8 0 3
+   
+   
+## installing packages
+
