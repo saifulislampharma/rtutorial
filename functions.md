@@ -38,5 +38,11 @@ match() can be equivalent of %in%. difference is that %in% return True/False, an
 ### table() function
 [link](https://www.r-bloggers.com/r-function-of-the-day-table/)
    
+   
+   
+   
+## ggplot2
+### qplot()
+basic ggplot, but with more flexibility. a working example in [here](http://www.sthda.com/english/wiki/qplot-quick-plot-with-ggplot2-r-software-and-data-visualization)
 ## installing packages
 
