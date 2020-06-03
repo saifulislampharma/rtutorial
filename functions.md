@@ -39,6 +39,9 @@ match() can be equivalent of %in%. difference is that %in% return True/False, an
 [link](https://www.r-bloggers.com/r-function-of-the-day-table/)
    
    
+### formula()
+it contains various operator to setup the equation for regression. [very detailed one](https://www.datacamp.com/community/tutorials/r-formula-tutorial)
+   
    
    
 ## ggplot2
