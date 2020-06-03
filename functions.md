@@ -35,6 +35,8 @@ match() can be equivalent of %in%. difference is that %in% return True/False, an
    > x
    [1] 6 8 0 3
    
+### table() function
+[link](https://www.r-bloggers.com/r-function-of-the-day-table/)
    
 ## installing packages
 
