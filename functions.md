@@ -52,3 +52,8 @@ basic ggplot, but with more flexibility. a working example in [here](http://www.
     install.packages("BiocManager")
 
     BiocManager::install("apeglm")
+
+
+## get the absoulte path of the currently executing path
+
+    paste0(gsub("\\", "/", fileSnapshot()$path, fixed=TRUE),"/")
