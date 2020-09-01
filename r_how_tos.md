@@ -33,4 +33,4 @@ there are a lot of options to this method. like c++
     ls(pat = "specific_pattern)
 
 ## how many data types are there
-[!r_data_types.jpg](r_data_types.jpg)
+[!r](r_data_types.jpg)
