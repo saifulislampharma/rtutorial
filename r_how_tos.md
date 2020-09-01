@@ -34,3 +34,15 @@ there are a lot of options to this method. like c++
 
 ## how many data types are there
 ![r](r_data_types.jpg)
+
+
+## setting name attributes 
+    
+    names(obj) <- value
+    
+    # or if u want to see the names
+    
+    names(obj)
+    
+## Data Structures
+![data structure](r_data_structures.jpg)
