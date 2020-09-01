@@ -77,4 +77,5 @@ the upper limit of the range is also included in the result
     >[1] 1 1 1 1 1 1 1 1 1
 ## Matrix initialization
 ![matrix initialization](r_matrix_init.jpg)
+
 ![matrix initialization2](r_matrix_init2.jpg)
