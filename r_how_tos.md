@@ -46,3 +46,18 @@ there are a lot of options to this method. like c++
     
 ## Data Structures
 ![data structure](r_data_structures.jpg)
+
+
+## what is order of corercion
+The ordering is roughly logical < integer < numeric < complex < character
+so logical will be integer
+
+## to check class of any object
+
+    class(obj_name)
+    
+## if have time, investigate the typeof() function
+
+
+## how to initialize vectors
+![vector initialization](r_vectors_init.jpg)
