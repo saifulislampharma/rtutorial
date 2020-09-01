@@ -67,3 +67,14 @@ the upper limit of the range is also included in the result
 ![vector index](r_vectors_index.jpg)
 
 ![vector index](r_vectors_index2.jpg)
+
+## how to reverse elements of a vector
+    
+    rev(x)
+## how to replicate 
+
+    rep(1,9)
+    >[1] 1 1 1 1 1 1 1 1 1
+## Matrix initialization
+![matrix initialization](r_matrix_init.jpg)
+![matrix initialization2](r_matrix_init2.jpg)
