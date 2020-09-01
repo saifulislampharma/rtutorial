@@ -31,3 +31,6 @@ there are a lot of options to this method. like c++
     
 ## how to find a specific pattern in current directory
     ls(pat = "specific_pattern)
+
+## how many data types are there
+[!r_data_types.jpg](r_data_types.jpg)
