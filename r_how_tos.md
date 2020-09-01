@@ -88,5 +88,36 @@ the upper limit of the range is also included in the result
 ## list operation
 `ls[[1]]` and `ls$a` return the same type of data. but `ls[1]` return a list
 ![list_operaton](images/r_list_op.jpg)
-
+look at the example, this way we can also specify the name of element of a list
 ![list_operaton2](images/r_list_op1.jpg)
+
+
+## how to create a dataframe
+
+![DataFrame](images/r_df_init.jpg)
+
+## how to subset the dataframe
+
+we know the exact location of rows and columns
+
+    ed_exp1 <- education[c(10:21),c(2,6:7)]
+
+Another elegent way: if we know the value of specific column upon which to select rows, and the columns to be selected
+
+    ed_exp2 <- education [which(education$region == 2), names(educations) %in% c("State","Minor.Population","Education.Expenditures")]
+    
+Another Basic function 
+    
+   ed_exp3= subset(education, region ==2, select =  c("State","Minor.Population","Education.Expenditures"))
+   
+Using dplyr
+
+    install.packages("dplyr")
+    library(dplyr)
+    ed_exp5 <- select(filter(education, Region == 2),c(State,Minor.Population:Education.Expenditures))
+    
+1. Subset using brackets by extracting the rows and columns we want
+2. Subset using brackets by omitting the rows and columns we don’t want
+3. Subset using brackets in combination with the which() function and the %in% operator
+4. Subset using the subset() function
+5. Subset using the filter() and select() functions from the dplyr package
