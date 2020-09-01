@@ -121,3 +121,60 @@ Using dplyr
 3. Subset using brackets in combination with the which() function and the %in% operator
 4. Subset using the subset() function
 5. Subset using the filter() and select() functions from the dplyr package
+
+## how to load/install packages if not already loaded/installed
+
+        if((!require("ggplot2")){
+        install.packages("ggplot2"))
+        library(ggplot2)
+        }
+
+
+## different ways to input/output
+
+### load: will load .rda files
+
+.rda files save the r objects in binary format.
+
+      save(count, age, circumference, file = "mydata.rda")
+      #now load
+      load("mydata.rda") # it wil search the file in directory returned by getwd()
+      
+### writing human readable files
+[link](https://www.r-bloggers.com/how-to-save-and-load-datasets-in-r-an-overview/)
+
+       write.table(data, 
+                    file = "file.csv",
+                    sep = "\t",
+                    row.names = F,
+                    append = F) # append = True will write the file at the end of already present in the disk. 
+                    
+if the file is huge:
+       
+       
+       library(data.table)
+       t0 = Sys.time()
+       for (i in 1:10){
+                fwrite(data, file = "file.csv",
+                sep = "\t",
+                row.names = F,
+                append = T)
+            }
+        difftime(Sys.time(),t0)
+        
+if we want to write an excel file
+
+          library(WriteXLS)
+          WriteXLS(data, ExcelFileName = "data.xlsx",
+                     SheetNames = "my data",
+                     AdjWidth = T,
+                     BoldHeaderRow = T)
+                     
+so basically three arguments are to be given. data, file, row.names.
+
+here to write csv
+
+                write.csv(data, file= "file.csv",
+                row.names = F)
+                
+                
