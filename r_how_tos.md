@@ -61,3 +61,9 @@ so logical will be integer
 
 ## how to initialize vectors
 ![vector initialization](r_vectors_init.jpg)
+
+## how to index vectors
+the upper limit of the range is also included in the result
+![vector index](r_vectors_index.jpg)
+
+![vector index](r_vectors_index2.jpg)
