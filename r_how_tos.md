@@ -178,3 +178,21 @@ here to write csv
                 row.names = F)
                 
                 
+
+to read data set we can use:
+
+
+        data()
+        #using data(data_set name) can be loaded that dataset
+        
+or      
+            
+            read.table(file_name, sep = "\t", header = TRUE, stringAsFactor = False)
+            
+or         
+
+            read.csv(file_name, sep = ",", header = TRUE, stringAsFactor = False)
+            
+or          
+    
+            read.csv2(file_name, sep = ";", header = TRUE, stringAsFactor = False) # if sep = ";"
