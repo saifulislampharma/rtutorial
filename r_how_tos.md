@@ -80,3 +80,7 @@ the upper limit of the range is also included in the result
 
 ![matrix initialization2](r_matrix_init2.jpg)
 ![matrix iop](r_matrix_op2.jpg)
+
+
+## list initialization
+![list_initit](images/r_list_ini.jpg)
