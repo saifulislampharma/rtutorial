@@ -84,3 +84,7 @@ the upper limit of the range is also included in the result
 
 ## list initialization
 ![list_initit](images/r_list_ini.jpg)
+
+## list operation
+`ls[[1]]` and `ls$a` return the same type of data. but `ls[1]` return a list
+![list_operaton](images/r_list_op.jpg)
