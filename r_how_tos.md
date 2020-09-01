@@ -88,3 +88,5 @@ the upper limit of the range is also included in the result
 ## list operation
 `ls[[1]]` and `ls$a` return the same type of data. but `ls[1]` return a list
 ![list_operaton](images/r_list_op.jpg)
+
+![list_operaton2](images/r_list_op1.jpg)
