@@ -129,7 +129,15 @@ Using dplyr
         library(ggplot2)
         }
 
+or for case of bioconductor 
 
+        if (!requireNamespace('BiocManager', quiet = TRUE)){
+                install.packages('BiocManager')
+                
+                }
+        BiocManager.install("BioGenerics")
+        
+        
 ## different ways to input/output
 
 ### load: will load .rda files
@@ -196,3 +204,27 @@ or
 or          
     
             read.csv2(file_name, sep = ";", header = TRUE, stringAsFactor = False) # if sep = ";"
+
+
+## how to execute a script.r
+two ways:
+to run the script in the current session :
+
+        #in R console or rstudio
+        source(plot.R)
+        
+to run the script in seperate session
+
+        # in R console or rstudio
+        system("Rscript plot.R")
+        
+
+## some important packages
+![oajc](images/rpackages.jpg)
+
+
+## what is type return by table class
+
+    provider <- table(dat$provider)
+    class(provider)
+    > table
