@@ -228,3 +228,7 @@ to run the script in seperate session
     provider <- table(dat$provider)
     class(provider)
     > table
+## how to find out which columns are categorical?
+
+    colum_classes = sapply(df, class)
+    which(column_classes == 'factor')
